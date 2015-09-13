@@ -17,24 +17,20 @@ For each quote, describe what it was about the quote that led you pick it.
 
 **Response**
 # Quote 1, Mernik et all 2002, Section 2.2
-   "As mentioned inj section 1.1, a quantitative..."
-   1. Doing whats comfortable often leads to not doing what is hard (which potentially deters from building a language even if that language would be more comfortable in the long run)
-   2. Designing a DSL is not even that hard, but takes mental effort to decide that you need to do it, and then more mental effort to decide to actually do it. unfamiliar choice, so defaults to not doing it
-   3. Difficult to look past "short-term considerations" (getting code written) in order to see potential long term benefit
-   4. Good policy for life...don't postpone hard things because eventually postponing just means not doing
+"As mentioned in Section 1.1, a quantitative treatment of the trade-offs involved is difficult. In practice, short-term consid- erations and lack of expertise may easily cause indefinite postponement of the decision." [Mernik et all 2002 section 2.2]
+
+This quote really resonated with us because we realized that doing what is comfortable often leads to not doing what is hard (or has high startup costs) which would potentially deter developers from building a new language to develop in, even if that language might be more comfortable in the long run. We also decided that even though building/designing a DSL is not _that_ hard it does require mental effort almost every step of the way. First you need to decide that its necessary, then you need to make implementation choices etc. When building a large project its sometimes difficult to look past short term considerations (like getting code written) in order to see long term benefits of potentially building a DSL. We also noticed that this quote makes for good life advice: don't postpone hard things because eventually postponing just means not doing.
 
 # Quote 2, Bloch 2006
-   "If its hard to find good names, go back..."
-   1. A good idea for an API, when someone else will be using it
-   2. Questionable advice for programming large scale, modular projects. what about helper functions? serve specifc and important purpose, but not necessarily obvious names "helper_function_one()"
-   3. Think about binary tree traversal, simple concept but requires helper functions to do several, easy, recursive tasks. those functions dont have obvious names
+"If it’s hard to find good names, go back to the drawing board.
+Don’t be afraid to split or merge an API, or embed it in a more general setting. If names start falling into place, you’re on the right track." [Bloch 2006]
+
+We thought that this quote was good advice for building an API (when other people would be using it) but we weren't sure whether it applied to programming larger scale project. What about helper functions? Those often serve specific and important purposes but don't always have obvious names. Consider the example of binary tree traversal--this relatively simple concept requires helper functions that dont necessarily have obvious names. 
 
 # Quote 3, Steele, 1998
-   "But the key point of the bazaar is not that you can..."
-   1. helping with design is sometimes more important than helping with building
-   2. a little bit weird b/c if a target for a project keeps changing then wont have a clear focus
-   3. reference quote about adding complex numbers, rational numbers, intervals, game, vector as primitives. he comes to the conclusion that "no. definitely not." which seems to contradict this part of the paper. why should the chief designers let random people have lots of power in the design process? in order to have a strong language you need to have a strong vision that cannot be watered down by many different people that all have different goals and use cases
-   4. people should be able to add to "their own language" aka write libraries, define first class objects through classes etc.
+"But the key point of the bazaar is not that you can get many persons to work with you at a task, for cathedral builders had a great deal of help, too. Nor is the key point that you get help with the designing as well as with the building, though that in fact is a big win. No, the key point is that in the bazaar style of building a program or designing a language or what you will, the plan can change in real time to meet the needs of those who work on it and use it. This tends to make users stay with it as time goes by; they will take joy in working hard and helping out if they know that their wants and needs have some weight and their hard work can change the plan for the better." [Steele, 1998]
+
+We really liked this quote because we definitely agree that helping with design is sometimes more important than helping with building. We did have a question about it though. Isn't it plausible that if many people are helping with design that the project could lose focus? We think its important for a project to have focus even if it has diversity of ideas. This quote seems to conflict with his later point about not cluttering a language with too many primitives. He discusses the possibility of adding complex/rational numbers, intervals etc. as primitives but states that should definitely not happen. "I might say “yes” to each one of these, but it is clear that I must say “no” to all of them! And so would James Gosling and Bill Joy. To add all these types to the Java programming language would be just too much. Some parts of the programming vocabulary are fit for all programmers to use, but other parts are just for their own niches. It would not be fair to weigh down all programmers with the need to have or to learn all the words for all niche uses." [Steele,1998] We agree with this conclusion and think that people should definitely be able to add to their own "fork of the language" by adding libraries, define first class objects, etc. but we dont think that everyone should be able to design the "master fork" of the language.
 
 
 
