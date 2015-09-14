@@ -244,9 +244,6 @@ Briefly describe how you split up the work for this assignment.
 
 **Response**
 
-We did the readings separately and then met on friday to generate outlines for all the questions and discuss our opinion on the articles. We discussed and wrote outlines and then split up the writing/cleaning up of our ideas to do on our own time. 
-Robin did:Natural language/JS quote
-Adam did: How do implementation choices effect the UI, Comments one, How is an API a language, Good language vs. bad language
-
+We did the readings separately and then met on friday to generate outlines for all the questions and discuss our opinion on the articles. We discussed and wrote outlines and then split up the writing/cleaning up of our ideas to do on our own time. We then reviewed and revised each other's work.
 
 ---
