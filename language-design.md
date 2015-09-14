@@ -54,16 +54,39 @@ How would you know a well-designed language? What are the symptoms? How would
 you know a poorly designed language? What are the symptoms?
 
 **Response**
-   1. a good general purpose language is not necessarily marked by a perfect grammar or syntax, but instead by the ease of growth
-   2. a good DSL however, we believe, should be almost perfect when released. there is room for improvement from the developers standpoint but in order for it to remain a crisp DSL its important that there arent "too many cooks in the kitchen" designing the language.
-   3. "APIs should be easy to use and hard to misuse..." bloch tip #6
-   4. all good languages should have good documentation - Robin
-   5. good languages can have objective merits even with bad doc. Good languages and good documentation are independent of each other - Adam
-   6. Good languages operate under principle of least astonishment, bad languages are astonishing
-   7. bad languages are cluttered with too many primitives, rules
-   8. bad languages dont have the ability to grow
-   9. bad languages take a while to let you know that theyve failed, better to fail at compile time than run time
 
+Language design is tricky, and it's hard to get it right. Determining which
+languages are good is important to know which ones to use --- even a DSL that is
+designed exactly for your purpose is not a good choice if it is poorly designed.
+Steele would say, and we would agree, that a good general purpose language is
+not necessarily marked by how good its syntax is or how many features it has but
+rather by its ability to grow.  No language can cover all use cases, and if
+there's a different syntax between built in types and user defined ones, overall
+awkwardness results. Steele believes that good languages are, in fact, small at
+their core and are easily extensible so users can define the features they
+need. Adam doesn't necessarily agree with this because it's nice to have
+standardized common features, although does agree that these should be part of
+standard libraries and not the language core.
+
+Domain-specific languages, on the other hand, have much less necessity to grow.
+Growing a domain-specific language would probably mean that it is being used
+outside its domain, so growth is not a priority. Being able to grow doesn't
+make it a bad language, but it's not as necessary as it is for general purpose
+languages.
+
+Robin believes that good documentation is necessary for a good language because
+you need to be able to actually use a language for it to be good. Adam
+disagrees because he believes that the goodness of a language is basically
+independent of its documentation, although he agrees that documentation is good
+for everyone involved.
+
+The principle of least astonishment is also important in good languages. This
+is true in the traditional "if I type something that's valid, it should do what
+I typed," but also in a fail fast principle. Usually not every string is a
+program in a language, and a programming language is more useful the faster it
+tells you about invalid programs. So if you've done a small amount of testing
+of a program, having it fail due to something like a syntax error when an edge
+case is hit is pretty surprising and should be avoided if possible.
 
 ---
  
