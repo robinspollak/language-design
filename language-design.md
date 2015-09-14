@@ -94,14 +94,37 @@ the commenters?
 
 **Response**
 
-   1. programmers afraid of oversimplification
-   2. dangers of moving PLs closer to natural language is that PLs do not function like natural languages. you can make syntax erros and use nouns/vers that arent quite right in natural language and still get the meaning across but in PLs a computer either a) wont do anything (error) or b) will do something that you didnt want it to do
-   3. there is a lot of "meanness" on CS forums, people often want to seem smart and feel smart and dont want their field to be corrupted by "bad programmers"
-   4. community should want to include everyone but doesnt work that way right now
-   5. defintiely are problems with natural language like PLs in that they dont work that well but programmers should be trying to find a solution for that problem in order to expand and progress their field, not just criticizing the attempts being made
-   6. bad solution worse than no solution, but people so afraid of bad solutions that they wont help to find a good solution. sympathize with both parties (on one hand you dont want bad languages creating bad programs written by bad people, but on the other hand the more people that have the ability to write programs the better the tech sphere will be)
-   7. "in particular you can learn C++, say, much more easily than you can a new natural language" <-- good quote
+The essence of the conflict between professional programmers and everyone is
+that the professional programmers have seen many bad attempts at making coding
+"easier" and are fearful of being forced to use another. In the attempt to make
+programming easier, languages such as Scratch have been developed, where it's
+fairly easy to do atomic tasks that the developers thought of, but are, as
+Steele would put it, unable to grow. So many bad attempts have been made, ones
+that just cater to new users but are painfully hard to do anything advanced in,
+that the professional programmers have become wary of the attempts. In short,
+the programmers are afraid of oversimplification so much that they support no
+simplification at all.
 
+While the fear of oversimplification may not be entirely rational, there are
+dangers with the movement of programming languages closer to natural languages.
+Natural languages are almost inherently ambiguous and in class most people
+agreed that programming languages should be unambiguous. Thus, to use a natural
+language as a programming language, somewhat arbitrary decisions must be made
+to remove the ambiguity, which can make it harder to write because one must
+know about these decisions to program correctly.
+
+On the other hand, simplification of programming languages is a worthwhile task
+and is certainly _possible_ to do without oversimplifying them. Professional
+programmers should not immediately dismiss attempts at simplification since if
+attempting is discouraged, no progress will be made.
+
+What's interesting, though, is that programming languages are already not all
+that difficult to learn: as commenter Peter says, "In particular, you can learn
+C++, say, much more easily than you can a new natural language." Sure, there are
+many rabbit-holds that can lead you to years of studying a language, and some
+communities are not particularly welcoming to newcomers, but programming
+languages _were_ designed for people to be able to use and are still relatively
+good at that.
 
 ---
 
