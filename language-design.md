@@ -95,14 +95,26 @@ In what way is an API a language?
 
 **Response**
 
-1. it is used by people other than those that wrote it
-2. API basically just internal DSL, interface to a system
-3. System needs to be controlled, need a language to control the system, use the API to control the system, thus the API is a language
-4. not that many nouns! mostly verbs that use the nouns inherent to the host language
-5. have documentation
-6. means for programmer to talk to a computer
-7. user should be able to use API to do things that designers did not imagine, otherwise just a series of buttons which is a pretty lame API
+An API is somewhat of a precursor to a language: once an API gets complicated
+enough, we can start to think of it as an internal DSL, and it may eventually
+become its own language. A good example of this is the graphics library QT. QT
+started as just a graphics library where you could draw things, but now it has
+such a heavy preprocessor that it tacks on before sending it to the C++
+compiler that it is essentially a language of its own. But even when an API is
+just an API, it is still shares a lot with a language. Both are used by people
+other than those who wrote it, and can be used to do things that the designers
+did not even imagine. Both an API and a language are used as a human interface
+to a system: in a general purpose language, this system is the computer as a
+whole, but in an API it is just the one application.
 
+There are, however, some differences. A full-blown programming language usually has a lot
+more nouns than an API does, since the nouns that the API has are usually
+implicit to the application. As an example, an "API" for a light bulb might
+have the `turn_on` and `turn_off` functions, while the equivalent in a GPL
+would be to have the light bulb noun as a separate noun.
+
+Overall, we would say that an API is a very basic DSL and thus shares some
+features of languages while being different in other aspects.
 
 ---
 
