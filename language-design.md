@@ -136,10 +136,30 @@ implementation choices from users?
 
 **Response**
 
-   1. made a few APIs, try to bring through all the important subtleties of the underlying model when desgining API in order to avoid oversimplification
-   2. important to balance simplification/increased ease of use (a partial purpose of the API) with faithfulness to the underlying system
-   3. if there is a design choice made that could go one way or the other, a designer should make clear that choice so that the user can make an informed choice about how to use the language
-   4. implementation choices effect how the user writes it but not necessarily the "overall user experience" (rate your experience on a scale of 1-10) may not be affected by many implementation choices, instead by the overall design of the language
+Programming languages are the interface between human and computer, so they
+should be designed to be easily understood by both parties. Generally, it's
+simple for language designers to cater to the computer since computers are
+relatively simple and programmers deal with computers a lot. Making a language
+that is good for humans, however, is much harder, so language designers
+constantly need to think about what is best for them. One goal of a language is
+to take a relatively complex object and make it easy for humans to interact
+with. Often, this means that there are some things that one could do directly
+in the domain that will become impossible if using a language. Language
+designers must make implementation choices to decide which things in the domain
+should be carried through and which should become impossible. For example, if a
+designer decides that a language should be interpreted, it becomes impossible
+to write a program in that language that is to be compiled. This sort of design
+choice affects users a lot because it restricts what they can do, and these
+choices cannot be hidden from users because they are fundamental to the
+language. Another concrete example is in something like the C++ standard
+library, where the `set` class is supposed to be a generic set but was
+implemented as a tree, and they later had to add an `unordered_set` class for
+people that wanted a hashset instead.
+
+While these design choices do change how a person uses the language, the
+overall user experience can be overall good with many different choices. Often
+making the design choices very clear to the users helps with understanding,
+since the principle of least surprise can be upheld much more easily.
 
 ---
 
