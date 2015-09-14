@@ -229,11 +229,13 @@ you do so? If not, why not?
 This is an extremely interesting question and debate that we think will be a major talking point in CS over the next years. There will always be a core of people that are loyal to the "original" type of programming languages, but in order to evolve the designers of programming languages will try to appeal to a broader audience by trying to making PLs more like natural languages. We decided that these two experiences are not at odds with each other but there are important truths to both experiences. The Pavlus article we think was clearly written by someone that wasn't well-educated enough about the issue to have his own unique insights but that is not at all to discount the article because the fact of the matter is that __analysis of programming languages will not always be done by people that are experts in computer science.__ The points brought up about perl and Randomo are funny and interesting and it _is_ a problem that novices can't read/write C-based code at all intuitively but also the problem raised by Cook is a serious one. __Programming languages should not masquerade as natural languages unless they truly are one.__ The principle of least surprise would tell us that if something looks like a natural language then it should _behave_ like a natural language. Each natural language has slang, mispronunciations, and differences in use that are not acceptable in PLs because computers do not (yet) have the same kind of flexibility of interpretation that humans do (computers can not see your body language, guess as to your intent, etc.) In class we decided that PLs should be deterministic and unambiguous but natural languages are neither of those things which makes raises a question of how much like natural languages we want our PLs to be.
 
 We did decide, however, that some parts of natural languages are important to incorporate into a DSL that we were writing. Consider python's looping syntax vs. Java's
-for i in range(n):             vs.         for (int i=0; i<n; i++){
-   foo(i)                                     foo(i);
-   bar+=1                                     bar++;
+
+    for i in range(n):             vs.         for (int i=0; i<n; i++){
+       foo(i)                                     foo(i);
+       bar+=1                                     bar++;
                                            }
 These loops do the same thing but the python is far more readable to someone that does is unfamiliar with code. We think that it is good to incorporate nouns and certain concepts from natural languages into a PL but it is vital that it is super clear that PLs are a 'different beast' than natural languages. We want languages that are easy to write (both for experienced and inexperienced programmers) and easy to read for everyone but we also __need__ languages that give us what we want and expect from a programming language.
+
 ---
 
 **Question**
